@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    cout << ((bool)3 +2) << endl;
-    cout << (23.5 + 2 +'A') << endl;
-    //Area of rectangle
-    int length, width;
-    cout<<("Enter Length\n")<<endl;
-    cin<<("E")
-    cout<<("Enter Breath\n")<<endl;
-    
+int main() {
+    int l, w, area;
 
+    cout << "Enter length of rectangle: " << endl;
+    cin >> l;
 
+    cout << "Enter width of rectangle: " << endl;
+    cin >> w;
+
+    area = l * w;
+
+    cout << "Area of rectangle is: " << area << endl;
 
     return 0;
 }
