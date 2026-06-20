@@ -36,6 +36,10 @@ void multiple(int a=3){
   }
 }
 
+void areaofsqr(int n){
+  cout << "Area Of square is: " << n*n << endl;
+}
+
 
 int main() {
     avg(1,2,3);
@@ -43,5 +47,6 @@ int main() {
     areaofrect(1,2);
     evenodd(1);
     multiple();
+    areaofsqr(4);
     return 0;
 }
