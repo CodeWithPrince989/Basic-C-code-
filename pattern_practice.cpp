@@ -30,14 +30,14 @@ void star_pattern_reverse(int n){
 
 
 
-// void star_pattern_reverse(int n){
-//    for(int i=1; i<n; i++){
-//       for(int j=1; j<=n-i; j++){
-//          cout<<"*";
-//       }
-//       cout<<endl;
-//    }
-// }
+void onezeroonetriangle(int n){
+   for(int i=1; i<n; i++){
+      for(int j=1; j<=n-i; j++){
+         cout<<"*";
+      }
+      cout<<endl;
+   }
+}
 
 int main(){
     // num_pattern(5);
@@ -66,3 +66,4 @@ int main(){
     cout<<endl;
   }
 }
+
