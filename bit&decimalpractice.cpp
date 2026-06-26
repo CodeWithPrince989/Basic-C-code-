@@ -18,5 +18,6 @@ void bintoDec(int binNum){
 
 int main(){
   int bintoDec(111111);
+  int bintoDec(10110);
   return 0;
 }
